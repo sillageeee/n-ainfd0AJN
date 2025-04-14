@@ -57,7 +57,7 @@ local Ativar = Aimbot:CreateButton({
     end,
  })
 
-AimbotTab:AddToggle({
+local Aimbot = Aimbot:CreateButton({
     Name = "Ativar Aimbot",
     Default = false,
     Callback = function(value)
