@@ -34,4 +34,11 @@ local Window = Rayfield:CreateWindow({
     }
  })
 
-local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
+local Aimbot = Window:CreateTab("Aimbot", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Aimbot",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
