@@ -56,3 +56,11 @@ local Ativar = Aimbot:CreateButton({
      game.Players.LocalPlayer.Character:SetAttribute("SpeedMultiplier", Value)
     end,
  })
+
+AimbotTab:AddToggle({
+    Name = "Ativar Aimbot",
+    Default = false,
+    Callback = function(value)
+        aimbotEnabled = value
+    end
+})
