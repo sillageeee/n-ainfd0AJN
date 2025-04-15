@@ -45,3 +45,5 @@ local Toggle = Aimbot:CreateToggle({
    -- The variable (Value) is a boolean on whether the toggle is true or false
    end,
 })
+
+local Visual = Window:CreateTab("Visual", 4483362458) -- Title, Image
