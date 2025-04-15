@@ -47,3 +47,13 @@ local Toggle = Aimbot:CreateToggle({
 })
 
 local Visual = Window:CreateTab("Visual", 4483362458) -- Title, Image
+
+Visual:AddToggle({
+    Name = "ESP",
+    Default = false,
+    Save = true,
+    Flag = "ESP_Toggle",
+    Callback = function(Value)
+        ToggleESP(Value)
+    end
+})
